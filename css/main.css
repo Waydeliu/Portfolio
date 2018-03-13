@@ -1,0 +1,212 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight:700;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: #FF5126;
+  outline: none;
+}
+
+.link{
+  text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link:hover, .link:focus{
+  color: #FF5126;
+  outline: none;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight:700;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  color: #FF5126;
+  }
+
+.text-input{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 6px 10px 6px 10px;
+}
+
+.text-input:focus{
+  border: 2px solid #4074ca;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+.heading-one{
+  font-weight:700;
+  font-size:3rem;
+}
+
+.heading-two{
+  font-weight:500;
+  font-size: 2rem;
+}
+
+.heading-three{
+  font-weight:500;
+  font-size: 1.5rem;
+}
+
+.para{
+  line-height:1.2rem;
+  color:#363636;
+}
+
+.bullet{
+  margin: 7px 0px;
+  font-size: 18px;
+}
+
+.numbered{
+  margin: 7px 0px;
+  font-size: 18px;
+}
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+.navigation{
+  background-color: #fff;
+  height: 55px;
+  border-bottom: 1px solid #7c7c7c;
+}
+
+.product{
+  margin:10px;
+  height:400px;
+}
+.items{
+  margin:10px;
+  width:230px;
+  height:320px;
+  float:left;
+  border: 1px solid #7c7c7c;
+}
+
+.picture{
+  border: 1px solid #7c7c7c;
+  margin:auto;
+  margin-top:7px;
+  width:210px;
+  height:200px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .block {
+  margin: 10px 20px;
+  height: 200px;
+  flex-grow: 15em;
+  min-width: 230px;
+  border: 5px solid black;
+}
+
+.black{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #000;
+  border: 1px solid black;
+  color:#fff;
+}
+.gray{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.lightgray{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #ccc;
+  border: 1px solid black;
+}
+.white{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #7f7f7f);
+  border: 1px solid black;
+}
+
+.orange{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #ff5126;
+  border: 1px solid black;
+}
+.red{
+  height: 100px;
+  width: 100px;
+  float:left;
+  background-color: #AF2E28;
+  border: 1px solid black;
+}
