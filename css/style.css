@@ -31,33 +31,6 @@ section code {
   padding: 0.5em 0.75em;
 }
 
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
-
-.noScroll {
-  margin: 0;
-  width: 100%;
-  height: 6rem;
-  z-index: 500;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-  background-color: #fff;
-}
-
-.scroll {
-  position: fixed;
-  margin: 0;
-  background-color: #EEE;
-  width: 100%;
-  height: 4.5rem;
-  z-index: 500;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
 nav {
   z-index: 100;
   width: 95%;
@@ -118,39 +91,103 @@ li a:hover::after {
 }
 
 #content {
-  max-width: 1000px;
   margin: 0 auto;
+}
+
+.aboutMe {
+  margin: 0 auto;
+  margin-top: 12rem;
+  margin-bottom: 12em;
+  max-width: 1000px;
+}
+
+.projects {
+  margin: 0 auto;
+  margin-top: 12rem;
+  margin-bottom: 12em;
+  max-width: 1000px;
+}
+
+.analysis {
+  margin: 0 auto;
+  margin-top: 12rem;
+  margin-bottom: 12em;
+  max-width: 1200px;
 }
 
 .heading-two {
   font-weight: 300;
   font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.heading-three {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: .2em;
+}
+
+.flexContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 1em;
+}
+
+.flexItem1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  flex: 3;
+  min-width: 300px;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.flexItem2 {
+  margin: 0 auto;
+  padding-right: 3em;
+  float: left;
+  flex: 4;
+  min-width: 300px;
+  margin-bottom: 2em;
 }
 
 .list {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .items {
-  margin: 0.5rem;
+  margin: 0;
+  padding: 0;
   background-color: #fff;
   float: left;
   flex: 1;
-  min-width: 300px;
-  border: 5px solid #fff;
+  min-width: 290px;
+}
+
+.items a {
+  margin: 0;
+  padding: 0;
 }
 
 .image {
   max-width: 100%;
+  margin: 0 auto;
 }
 
 p {
-  padding-top: 1em;
-  font-weight: 400;
+  padding-bottom: 1em;
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: #444;
 }
 
 /*animation css credit to mutedblues, modified by Wade*/
