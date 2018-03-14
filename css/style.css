@@ -92,27 +92,28 @@ li a:hover::after {
 
 #content {
   margin: 0 auto;
+  max-width: 900px;
 }
 
 .aboutMe {
   margin: 0 auto;
   margin-top: 12rem;
   margin-bottom: 12em;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .projects {
   margin: 0 auto;
   margin-top: 12rem;
   margin-bottom: 12em;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .analysis {
   margin: 0 auto;
   margin-top: 12rem;
   margin-bottom: 12em;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 .heading-two {
