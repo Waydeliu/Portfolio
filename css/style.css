@@ -90,6 +90,17 @@ li a:hover::after {
   width: 100%;
 }
 
+.link {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link:hover, .link:focus {
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  text-decoration: underline;
+}
+
 #space {
   height: 90px;
 }
@@ -104,6 +115,11 @@ li a:hover::after {
   background-color: lightgrey;
 }
 
+.footer {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .aboutMe {
   margin: 0 auto;
   margin-top: 15em;
@@ -114,10 +130,23 @@ li a:hover::after {
 .projects {
   margin: 0 auto;
   margin-top: 15em;
-  margin-bottom: 12em;
+  margin-bottom: 0em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  max-width: 1000px;
+}
+
+.footer-content {
+  margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 2em;
   max-width: 1000px;
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .analysis {
@@ -291,7 +320,7 @@ p {
 .contact2 {
   margin: 0 auto;
   margin-top: 5rem;
-  margin-bottom: 0em;
+  margin-bottom: 6em;
   max-width: 1000px;
 }
 
