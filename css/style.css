@@ -208,7 +208,7 @@ li a:hover::after {
   padding: 0;
   float: left;
   flex: 3;
-  min-width: 300px;
+  min-width: 400px;
   margin-bottom: 2em;
   padding: 1em;
 }
@@ -266,6 +266,16 @@ li a:hover::after {
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
+  padding: 0;
+  transition: transform .2s;
+  transform: scale(1.01);
+}
+
+.image2 {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
   padding: 0;
   transition: transform .2s;
   transform: scale(1.01);
@@ -454,6 +464,10 @@ p {
   }
 }
 
+.video {
+  height: 400px;
+}
+
 @media (max-width: 1100px) {
   #content {
     max-width: 90%;
@@ -462,5 +476,11 @@ p {
   .projects {
     max-width: 90%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .flexItem1 {
+    min-width: 300px;
   }
 }
