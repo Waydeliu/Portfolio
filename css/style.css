@@ -101,6 +101,46 @@ li a:hover::after {
   text-decoration: underline;
 }
 
+.link-left {
+  float: left;
+  margin-top: 3rem;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link-left:hover, .link-left:focus {
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  text-decoration: underline;
+}
+
+.link-right {
+  float: right;
+  margin-top: 3rem;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link-right:hover, .link-right:focus {
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  text-decoration: underline;
+}
+
+.link1 {
+  float: right;
+  padding: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
+.link1:hover, .link1:focus {
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  text-decoration: underline;
+}
+
 #space {
   height: 90px;
 }
@@ -132,7 +172,7 @@ li a:hover::after {
   margin-top: 15em;
   margin-bottom: 0em;
   padding-top: 2em;
-  padding-bottom: 3em;
+  padding-bottom: 5em;
   max-width: 1000px;
 }
 
@@ -152,7 +192,7 @@ li a:hover::after {
 .analysis {
   margin: 0 auto;
   margin-top: 12rem;
-  margin-bottom: 12em;
+  margin-bottom: 9em;
   max-width: 1000px;
 }
 
@@ -249,7 +289,7 @@ li a:hover::after {
 }
 
 .items {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   float: left;
   flex: 1;
