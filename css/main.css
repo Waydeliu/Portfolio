@@ -2,6 +2,7 @@
   STYLE GUIDE STYLING
   Default styling for the style guide
 */
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
@@ -27,17 +28,17 @@ section code {
   padding: 0.5em 0.75em;
 }
 
-
 /*
   INTERACTIVE ELEMENTS -------------------
 */
 
 /* Styling for the navigation button */
+
 .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: rgba(0, 0, 0, 0.5);
-  font-weight:700;
+  font-weight: 700;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -48,14 +49,14 @@ section code {
   outline: none;
 }
 
-.link{
+.link {
   text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.link:hover, .link:focus{
+.link:hover, .link:focus {
   color: #FF5126;
   outline: none;
   text-decoration: none;
@@ -65,7 +66,7 @@ section code {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: rgba(0, 0, 0, 0.5);
-  font-weight:700;
+  font-weight: 700;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -73,9 +74,9 @@ section code {
 
 .button:hover, .button:focus {
   color: #FF5126;
-  }
+}
 
-.text-input{
+.text-input {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid rgba(0, 0, 0, 0.2);
@@ -85,75 +86,81 @@ section code {
   padding: 6px 10px 6px 10px;
 }
 
-.text-input:focus{
+.text-input:focus {
   border: 2px solid #4074ca;
 }
 
 /*
   TEXT ELEMENTS -------------------
 */
-.heading-one{
-  font-weight:700;
-  font-size:3rem;
+
+.heading-one {
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-.heading-two{
-  font-weight:500;
+.heading-two {
+  font-weight: 500;
   font-size: 2rem;
 }
 
-.heading-three{
-  font-weight:500;
+.heading-three {
+  font-weight: 500;
   font-size: 1.5rem;
 }
 
-.para{
-  line-height:1.2rem;
-  color:#363636;
+.heading-four {
+  font-weight: 300;
+  font-size: .2rem;
 }
 
-.bullet{
+.para {
+  line-height: 1.2rem;
+  color: #363636;
+}
+
+.bullet {
   margin: 7px 0px;
   font-size: 18px;
 }
 
-.numbered{
+.numbered {
   margin: 7px 0px;
   font-size: 18px;
 }
-
 
 /*
   COMBINED ELEMENTS -------------------
 */
 
-.navigation{
+.navigation {
   background-color: #fff;
   height: 55px;
   border-bottom: 1px solid #7c7c7c;
 }
 
-.product{
-  margin:10px;
-  height:400px;
+.product {
+  margin: 10px;
+  height: 400px;
 }
-.items{
-  margin:10px;
-  width:230px;
-  height:320px;
-  float:left;
+
+.items {
+  margin: 10px;
+  width: 230px;
+  height: 320px;
+  float: left;
   border: 1px solid #7c7c7c;
 }
 
-.picture{
+.picture {
   border: 1px solid #7c7c7c;
-  margin:auto;
-  margin-top:7px;
-  width:210px;
-  height:200px;
+  margin: auto;
+  margin-top: 7px;
+  width: 210px;
+  height: 200px;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -166,47 +173,51 @@ section code {
   border: 5px solid black;
 }
 
-.black{
+.black {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #000;
   border: 1px solid black;
-  color:#fff;
+  color: #fff;
 }
-.gray{
+
+.gray {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #fff;
   border: 1px solid black;
 }
-.lightgray{
+
+.lightgray {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #ccc;
   border: 1px solid black;
 }
-.white{
+
+.white {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #7f7f7f);
   border: 1px solid black;
 }
 
-.orange{
+.orange {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #ff5126;
   border: 1px solid black;
 }
-.red{
+
+.red {
   height: 100px;
   width: 100px;
-  float:left;
+  float: left;
   background-color: #AF2E28;
   border: 1px solid black;
 }

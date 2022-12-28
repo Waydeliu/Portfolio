@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Wade Liu Profolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header class="header">
+    <nav>
+      <!-- <img class="logo" src="./img/sqlogo.png" alt="logo"/> -->
+      <a href="index.html" class="title">WADE LIU</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+            <span class="navicon">
+            </span>
+          </label>
+      <ul class="menu">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./project.html">PROJECT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="space">
+  </div>
+  <div id="content">
+
+    <div class="analysis">
+
+      <h1 class="heading-two">Music Nightclub VR Environment</h1>
+      <div class="flexContainer">
+        <div class="flexItem2">
+          <p>This project is a 3D VR environment project for the a music nightclub located in London. The project is aimed to recreate a concert environment in VR where people are able to see the live concert through their phone at home without being there
+            in person. Since is it targeted toward the mobile, the client wanted the environment to be as optimized as possible while looking realistic due to the hardware limitations and constraints.
+          </p>
+        </div>
+        <div class="flexItem3">
+          <p class="p1">Role</p>
+          <p class="p2">Environment Designer, Modeler, Programmer</p>
+          <p class="p1">Software Used: </p>
+          <p class="p2">Unity, Oculus, Maya, Substance Painter</p>
+
+        </div>
+      </div>
+
+      <h1 class="heading-five">Process</h1>
+      <div class="flexContainer">
+        <div class="flexItem2">
+          <p>At the start of the project, I studied the layout of the room with the pictures that they have taken to help me to accurately to recreate the room. With the blueprint they provide, I started grey boxing the layout in Maya, then started to add
+            in details to them with the speakers and stands. With the prototype model done, I imported it into Unity to check with the scale of the scene. After some modification, I started to texture the model through substance painter. With the tools
+            provided in substance painter, I was able to add realistic materials to the meshes which allow the model to look better even with a low poly count. Finally, I import the textured models back into Unity for the implementation of VR and lightings.
+          </p>
+        </div>
+        <div class="flexItem1">
+          <img src="./img/mos5.png" alt="image" class="image">
+          <p class="p3">Prototype Model in Maya </p>
+        </div>
+      </div>
+
+      <div class="flexContainer">
+        <div class="flexItem2">
+          <p>One of the problems that I have encountered was optimization. Due to this project targeted to mobile devices, it creates a lot of constraints on how much detail and effect I can put into the scene. I went through multiple documentations on optimization
+            for mobile VR in the game engine and ask my coworkers for some other suggestion. With their suggestions, I reduced the number of ploys in the models with compressed textures and applied settings that are best suited for mobile platforms to
+            help the VR experience to achieve a decent frame rate.
+          </p>
+        </div>
+        <div class="flexItem1">
+          <img src="./img/mos3.png" alt="image" class="image">
+          <p class="p3">Environment Screenshot</p>
+        </div>
+      </div>
+
+      <h1 class="heading-five">Reflection</h1>
+      <div class="flexContainer">
+        <p>
+          I enjoyed working on this project. This project allows me to strengthen my modeling and problem-solving skill. I was able to learn new skills in lighting and optimizations in Unity that could help me with future projects. As an individual project, it
+          allowed me to demonstrate my organization and communications skills. I would have to manage my time to meet the deadlines for the client as well as communicate with them to meet their need and get feedback for my works.
+        </p>
+      </div>
+      <div class="flexContainer">
+        <div class="flexItem1">
+          <img src="./img/mos1.png" alt="image" class="image">
+          <p class="p3">DJ Point of View</p>
+        </div>
+        <div class="flexItem1">
+          <img src="./img/mos2.png" alt="image" class="image">
+          <p class="p3">Dj Mixers</p>
+        </div>
+      </div>
+      <a href="./p5.html" class="link-left">&lt; Previous Project</a>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-content">
+      <p class="center">
+        <a href="./contact.html" class="link">CONTACT ME</a> |
+        <a href="./project.html" class="link">MORE PROJECTS</a>
+        <p>
+    </div>
+  </div>
+</body>
+
+</html>
